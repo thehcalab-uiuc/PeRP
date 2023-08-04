@@ -56,11 +56,12 @@ If you find the code or the paper useful for your research, please cite our pape
 ## Credits
 
 Other contributors:  
-[Neeloy Chakraborty](https://theneeloy.github.io/)
-[Haonan Chen](https://www.linkedin.com/in/haonan-chen-7a4339153/)
-[Jung-Hoon Cho](https://www.junghooncho.com/)
-[Cathy Wu](http://www.wucathy.com/)
-[Katherine Driggs-Campbell](http://krdc.web.illinois.edu/)
+
+- [Neeloy Chakraborty](https://theneeloy.github.io/)
+- [Haonan Chen](https://www.linkedin.com/in/haonan-chen-7a4339153/)
+- [Jung-Hoon Cho](https://www.junghooncho.com/)
+- [Cathy Wu](http://www.wucathy.com/)
+- [Katherine Driggs-Campbell](http://krdc.web.illinois.edu/)
 
 ## Contact
 
