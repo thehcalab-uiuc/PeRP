@@ -1,0 +1,130 @@
+On branch main
+Your branch is behind 'origin/main' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	deleted:    ../analysis/find_best_result.ipynb
+	modified:   ../analysis/result_analysis_230206.ipynb
+	deleted:    ../figure_tsd_trj_ramp_1031.py
+	deleted:    ../figure_tsd_trj_ring_1028.py
+	deleted:    ../find_best_result.ipynb
+	deleted:    ../handcoded_velocity_guidance.gif
+	deleted:    ../handcoded_velocity_guidance_without_slowdown.gif
+	modified:   ../pexps/exp.py
+	modified:   ../pexps/figure_eight.py
+	modified:   ../pexps/highway_ramp.py
+	modified:   ../pexps/ring.py
+	deleted:    ../plot_handcraft.ipynb
+	deleted:    ../plot_veldis5_hc.ipynb
+	deleted:    ../plot_veldis_hc.ipynb
+	deleted:    ../result_analysis_1112.py
+	deleted:    ../result_analysis_220112.ipynb
+	deleted:    ../result_analysis_221112.py
+	deleted:    ../result_analysis_230125.py
+	deleted:    ../result_analysis_230129.py
+	deleted:    ../result_analysis_230130.ipynb
+	deleted:    ../result_reward_shape_230112.ipynb
+	modified:   ../s-ramp-acccon-transfer.sh
+	modified:   ../s-ramp-alleval.sh
+	modified:   ../s-ramp-veldis10-transfer.sh
+	modified:   ../s-ring-acccon-eval.sh
+	modified:   ../s-ring-acccon-train.sh
+	modified:   ../s-ring-acccon-transfer.sh
+	modified:   ../s-ring-accconlc-train.sh
+	modified:   ../s-ring-accconlcm-train.sh
+	deleted:    ../s-ring-alleval.sh
+	deleted:    ../s-ring-alleval_220120.sh
+	deleted:    ../s-ring-handtransfer.sh
+	deleted:    ../s-ring-train.sh
+	modified:   ../s-ring-veldis10-train.sh
+	modified:   ../s-ring-veldis10-transfer.sh
+	modified:   ../s-ring-veldis10lc-train.sh
+	modified:   ../s-ring-veldis10lcm-train.sh
+	modified:   ../submit/s-ramp-acccon-hc1.sh
+	deleted:    ../submit/s-ramp-accdis3-hc1.sh
+	deleted:    ../submit/s-ramp-accdis3-hc10.sh
+	deleted:    ../submit/s-ramp-accdis3-hc100.sh
+	deleted:    ../submit/s-ramp-accdis3-hc125.sh
+	deleted:    ../submit/s-ramp-accdis3-hc150.sh
+	deleted:    ../submit/s-ramp-accdis3-hc175.sh
+	deleted:    ../submit/s-ramp-accdis3-hc20.sh
+	deleted:    ../submit/s-ramp-accdis3-hc200.sh
+	deleted:    ../submit/s-ramp-accdis3-hc225.sh
+	deleted:    ../submit/s-ramp-accdis3-hc250.sh
+	deleted:    ../submit/s-ramp-accdis3-hc275.sh
+	deleted:    ../submit/s-ramp-accdis3-hc300.sh
+	deleted:    ../submit/s-ramp-accdis3-hc4.sh
+	deleted:    ../submit/s-ramp-accdis3-hc50.sh
+	deleted:    ../submit/s-ramp-accdis3-hc6.sh
+	deleted:    ../submit/s-ramp-accdis3-hc8.sh
+	deleted:    ../submit/s-ring-accdis3-hc1.sh
+	deleted:    ../submit/s-ring-accdis3-hc10.sh
+	deleted:    ../submit/s-ring-accdis3-hc100.sh
+	deleted:    ../submit/s-ring-accdis3-hc125.sh
+	deleted:    ../submit/s-ring-accdis3-hc150.sh
+	deleted:    ../submit/s-ring-accdis3-hc175.sh
+	deleted:    ../submit/s-ring-accdis3-hc20.sh
+	deleted:    ../submit/s-ring-accdis3-hc200.sh
+	deleted:    ../submit/s-ring-accdis3-hc225.sh
+	deleted:    ../submit/s-ring-accdis3-hc250.sh
+	deleted:    ../submit/s-ring-accdis3-hc275.sh
+	deleted:    ../submit/s-ring-accdis3-hc300.sh
+	deleted:    ../submit/s-ring-accdis3-hc4.sh
+	deleted:    ../submit/s-ring-accdis3-hc50.sh
+	deleted:    ../submit/s-ring-accdis3-hc6.sh
+	deleted:    ../submit/s-ring-accdis3-hc8.sh
+	deleted:    ../submit/s-ring-veldis10-hc150-transfer.sh
+	deleted:    ../submit/s-ring-veldis10-hc50-transfer.sh
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	../analysis/Figure_Mayuri_230306.svg
+	../analysis/find_best_result_230220.ipynb
+	../analysis/find_best_result_230222.ipynb
+	../analysis/find_best_result_230228.ipynb
+	../analysis/find_best_result_230301 copy.ipynb
+	../analysis/find_best_result_230301.ipynb
+	../analysis/find_best_result_230316.ipynb
+	../analysis/find_best_result_230322.ipynb
+	../analysis/find_best_result_230324.ipynb
+	../analysis/find_best_result_230331.ipynb
+	../analysis/find_best_result_230411.ipynb
+	../analysis/result_analysis_(time-space)_230324.ipynb
+	../analysis/result_analysis_230220.ipynb
+	../analysis/result_analysis_230227.ipynb
+	../analysis/result_analysis_230301.ipynb
+	../analysis/result_analysis_230322.ipynb
+	../analysis/result_analysis_230323.ipynb
+	../analysis/result_analysis_230324.ipynb
+	../analysis/result_analysis_tf_all2all_230320.ipynb
+	../delete_models.sh
+	../pexps/eval.py
+	../pexps/intersection.py
+	../pexps/test.ipynb
+	../s-eight-acccon-train.sh
+	../s-ramp-acccon-eval-adap.sh
+	../s-ramp-acccon-train-adap.sh
+	../s-ramp-acccon-train.sh
+	../s-ramp-alleval-transfer.sh
+	../s-ramp-veldis10-eval-adap.sh
+	../s-ramp-veldis10-train-adap.sh
+	../s-ramp-veldis10-train.sh
+	../s-ring-acccon-eval-kick.sh
+	../s-ring-acccon-tf-train.sh
+	../s-ring-acccon-transfer-all-cpdir.sh
+	../s-ring-acccon-transfer-all.sh
+	../s-ring-accconlcm-eval.sh
+	../s-ring-veldis-eval.sh
+	../s-ring-veldis-train.sh
+	../s-ring-veldis10-eval.sh
+	../s-ring-veldis10-hc150-transfer.sh
+	../s-ring-veldis10-hc50-transfer.sh
+	../s-ring-veldis10-tf-train.sh
+	../s-ring-veldis10-transfer-all-cpdir.sh
+	../s-ring-veldis10-transfer-all.sh
+
+no changes added to commit (use "git add" and/or "git commit -a")

@@ -1,0 +1,66 @@
+accel_feature: false
+accel_penalty: 0
+act_coef: 1
+act_type: vel_discrete
+adv_norm: false
+alg: !!python/name:ut.TRPO ''
+av: 1
+center_reward: true
+circ_feature: false
+circumference: 640
+circumference_max: 654
+circumference_min: 628
+collision_penalty: 100
+constant_rl_velocity: null
+debug: false
+device: cpu
+disable_amp: true
+e: false
+gamma: 0.999
+global_reward: false
+handcraft: 2.5
+hc_param: 20
+hc_reward: average
+horizon: 2000
+incorrect_penalty: 0
+inexec_penalty: null
+initial_space: free
+insocial_penalty: null
+lc_act_type: continuous
+logger: true
+low: -1
+main: true
+max_accel: 0.5
+max_decel: 0.5
+max_speed: 35
+meta_stable_penalty: 0
+n_actions: 18
+n_lanes: 1
+n_steps: 1000
+n_veh: 40
+name: veldis18-20-TRPO-0
+norm_reward: true
+opt_level: O0
+render: false
+res: /home/gridsan/jcho/piecewise-constant-control-jcho/results/230419-jcho-ring640/veldis18-20-TRPO-0
+rl_sigma: 0.0
+sigma: 0.2
+sim_step: 0.1
+skip_stat_steps: 2000
+step_save: 5
+tb: true
+tmp: false
+warmup_steps: 1000
+wb: false
+
+i 1000 | max_kl 0.01 | lr 0.0001
+netconvert -o results/230419-jcho-ring640/veldis18-20-TRPO-0/sumo/net.xml -n results/230419-jcho-ring640/veldis18-20-TRPO-0/sumo/nod.xml -e results/230419-jcho-ring640/veldis18-20-TRPO-0/sumo/edg.xml -x results/230419-jcho-ring640/veldis18-20-TRPO-0/sumo/con.xml --no-turnarounds true
+sumo --net-file results/230419-jcho-ring640/veldis18-20-TRPO-0/sumo/net.xml --additional-files results/230419-jcho-ring640/veldis18-20-TRPO-0/sumo/add.xml --gui-settings-file results/230419-jcho-ring640/veldis18-20-TRPO-0/sumo/gui.xml --begin 0 --step-length 0.1 --no-step-log true --time-to-teleport -1 --no-warnings true --collision.action remove --collision.check-junctions true --max-depart-delay 0.5 --random true --start true
+i 1000 | ii  0 | rollout_time 13.4 | horizon 2e+03 | speed 8.52 | speed_rl 8.41
+       | speed_rl_std 1.53 | speed_human 8.52 | collisions 0
+       | collisions_human 0 | fuel 1.25e+03 | circumference 640
+i 1000 | ii  0 | reward_mean -0.00283 | value_mean 1.04 | ret_mean 1.16
+       | adv_mean 0.121 | explained_variance -0.0773
+i 1000 | ii  0 | rollout_end_time 0.0544
+i 1000 | total_time 1.84e+04
+

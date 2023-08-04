@@ -1,0 +1,43 @@
+{
+  "latent_dim": 2,
+  "encoder_dim": 32,
+  "decoder_dim": 32,
+  "n_encoder_layers": 1,
+  "n_decoder_layers": 1,
+  "state_dim": 3,
+  "traj_len": 20,
+  "reconstruction_beta": 1.0,
+  "kl_beta": 0.0001,
+  "epochs": 100,
+  "learning_rate": 0.0001,
+  "batch_size": 16,
+  "validation_freq": 1,
+  "seed": 20956,
+  "train_set_path": [
+    "../dataset/sim/offset_2.5/run_0",
+    "../dataset/sim/offset_2.5/run_1",
+    "../dataset/sim/offset_2.5/run_2",
+    "../dataset/sim/offset_2.5/run_3",
+    "../dataset/sim/offset_2.5/run_10",
+    "../dataset/sim/offset_2.5/run_11",
+    "../dataset/sim/offset_2.5/run_12",
+    "../dataset/sim/offset_2.5/run_13",
+    "../dataset/sim/offset_2.5/run_20",
+    "../dataset/sim/offset_2.5/run_21",
+    "../dataset/sim/offset_2.5/run_22",
+    "../dataset/sim/offset_2.5/run_23"
+  ],
+  "train_set_size": -1,
+  "val_set_size": -1,
+  "val_set_path": [
+    "../dataset/sim/offset_2.5/run_4",
+    "../dataset/sim/offset_2.5/run_14",
+    "../dataset/sim/offset_2.5/run_24"
+  ],
+  "val_plot_traj_size": 0,
+  "save_path": "../save_2.5//exp_12",
+  "show_log_on_out": false,
+  "val_only": false,
+  "load_path": "./save/exp_0/model_TraitVAE.pt",
+  "device": "cuda"
+}

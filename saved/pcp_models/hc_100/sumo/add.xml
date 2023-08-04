@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<additional xmlns:xsi="F/resources/xml/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+  <vType id="human" accel="1" decel="1.5" tau="1.0" minGap="2" maxSpeed="30" speedFactor="1.0" speedDev="0.1" impatience="0.5" delta="4" carFollowModel="IDM" sigma="0.2" laneChangeModel="LC2013" lcStrategic="1.0" lcCooperative="1.0" lcSpeedGain="1.0" lcKeepRight="1.0"/>
+  <vType id="rl" accel="1" decel="1.5" tau="1.0" minGap="2" maxSpeed="30" speedFactor="1.0" speedDev="0.1" impatience="0.5" delta="4" carFollowModel="IDM" sigma="0" laneChangeModel="LC2013" lcStrategic="1.0" lcCooperative="1.0" lcSpeedGain="1.0" lcKeepRight="1.0"/>
+  <route id="route_right" edges="right left right"/>
+  <route id="route_left" edges="left right left"/>
+  <rerouter id="reroute" edges="right">
+    <interval begin="0" end="1000000000.0">
+      <routeProbReroute id="route_right"/>
+    </interval>
+  </rerouter>
+  <vehicle id="0" type="rl" route="route_right" depart="0" departPos="free" departLane="0" departSpeed="0"/>
+  <vehicle id="1" type="human" route="route_right" depart="0" departPos="free" departLane="0" departSpeed="0"/>
+  <vehicle id="2" type="human" route="route_right" depart="0" departPos="free" departLane="0" departSpeed="0"/>
+  <vehicle id="3" type="human" route="route_right" depart="0" departPos="free" departLane="0" departSpeed="0"/>
+  <vehicle id="4" type="human" route="route_right" depart="0" departPos="free" departLane="0" departSpeed="0"/>
+  <vehicle id="5" type="human" route="route_right" depart="0" departPos="free" departLane="0" departSpeed="0"/>
+  <vehicle id="6" type="human" route="route_right" depart="0" departPos="free" departLane="0" departSpeed="0"/>
+  <vehicle id="7" type="human" route="route_right" depart="0" departPos="free" departLane="0" departSpeed="0"/>
+  <vehicle id="8" type="human" route="route_right" depart="0" departPos="free" departLane="0" departSpeed="0"/>
+  <vehicle id="9" type="human" route="route_right" depart="0" departPos="free" departLane="0" departSpeed="0"/>
+  <vehicle id="10" type="human" route="route_right" depart="0" departPos="free" departLane="0" departSpeed="0"/>
+  <vehicle id="11" type="human" route="route_right" depart="0" departPos="free" departLane="0" departSpeed="0"/>
+  <vehicle id="12" type="human" route="route_right" depart="0" departPos="free" departLane="0" departSpeed="0"/>
+  <vehicle id="13" type="human" route="route_right" depart="0" departPos="free" departLane="0" departSpeed="0"/>
+  <vehicle id="14" type="human" route="route_right" depart="0" departPos="free" departLane="0" departSpeed="0"/>
+  <vehicle id="15" type="human" route="route_right" depart="0" departPos="free" departLane="0" departSpeed="0"/>
+  <vehicle id="16" type="human" route="route_right" depart="0" departPos="free" departLane="0" departSpeed="0"/>
+  <vehicle id="17" type="human" route="route_right" depart="0" departPos="free" departLane="0" departSpeed="0"/>
+  <vehicle id="18" type="human" route="route_right" depart="0" departPos="free" departLane="0" departSpeed="0"/>
+  <vehicle id="19" type="human" route="route_right" depart="0" departPos="free" departLane="0" departSpeed="0"/>
+  <vehicle id="20" type="human" route="route_left" depart="0" departPos="free" departLane="0" departSpeed="0"/>
+  <vehicle id="21" type="human" route="route_left" depart="0" departPos="free" departLane="0" departSpeed="0"/>
+  <vehicle id="22" type="human" route="route_left" depart="0" departPos="free" departLane="0" departSpeed="0"/>
+  <vehicle id="23" type="human" route="route_left" depart="0" departPos="free" departLane="0" departSpeed="0"/>
+  <vehicle id="24" type="human" route="route_left" depart="0" departPos="free" departLane="0" departSpeed="0"/>
+  <vehicle id="25" type="human" route="route_left" depart="0" departPos="free" departLane="0" departSpeed="0"/>
+  <vehicle id="26" type="human" route="route_left" depart="0" departPos="free" departLane="0" departSpeed="0"/>
+  <vehicle id="27" type="human" route="route_left" depart="0" departPos="free" departLane="0" departSpeed="0"/>
+  <vehicle id="28" type="human" route="route_left" depart="0" departPos="free" departLane="0" departSpeed="0"/>
+  <vehicle id="29" type="human" route="route_left" depart="0" departPos="free" departLane="0" departSpeed="0"/>
+  <vehicle id="30" type="human" route="route_left" depart="0" departPos="free" departLane="0" departSpeed="0"/>
+  <vehicle id="31" type="human" route="route_left" depart="0" departPos="free" departLane="0" departSpeed="0"/>
+  <vehicle id="32" type="human" route="route_left" depart="0" departPos="free" departLane="0" departSpeed="0"/>
+  <vehicle id="33" type="human" route="route_left" depart="0" departPos="free" departLane="0" departSpeed="0"/>
+  <vehicle id="34" type="human" route="route_left" depart="0" departPos="free" departLane="0" departSpeed="0"/>
+  <vehicle id="35" type="human" route="route_left" depart="0" departPos="free" departLane="0" departSpeed="0"/>
+  <vehicle id="36" type="human" route="route_left" depart="0" departPos="free" departLane="0" departSpeed="0"/>
+  <vehicle id="37" type="human" route="route_left" depart="0" departPos="free" departLane="0" departSpeed="0"/>
+  <vehicle id="38" type="human" route="route_left" depart="0" departPos="free" departLane="0" departSpeed="0"/>
+  <vehicle id="39" type="human" route="route_left" depart="0" departPos="free" departLane="0" departSpeed="0"/>
+</additional>

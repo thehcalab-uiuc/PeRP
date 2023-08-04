@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-12-03 16:53:20 by Eclipse SUMO netedit Version 1.14.1
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- VTypes -->
+    <vType id="carla" color="blue"/>
+    <vType id="human" color="cyan" accel="1" decel="1.5" tau="1.0" minGap="2" maxSpeed="35" speedFactor="1.0" speedDev="0.1" impatience="0.5" delta="4" carFollowModel="IDM" sigma="0.2"/>
+    <vType id="rl" color="red" accel="1" decel="1.5" tau="1.0" minGap="2" maxSpeed="35" speedFactor="1.0" speedDev="0.1" impatience="0.5" delta="4" carFollowModel="IDM" sigma="0"/>
+    <vType id="vehicle.audi.a2" color="blue"/>
+    <!-- Routes -->
+    <route id="r_0" edges="-3 -0 -1 -2 -3"/>
+    <route id="r_1" edges="-1 -2 -3 -0 -1"/>
+     <!-- Other additionals -->
+    <rerouter id="rr_0" edges="-3">
+        <interval begin="0.00" end="1000000000.00">
+            <routeProbReroute id="r_0"/>
+        </interval>
+    </rerouter>
+    <rerouter id="rr_1" edges="-1">
+        <interval begin="0.00" end="1000000000.00">
+            <routeProbReroute id="r_1"/>
+        </interval>
+    </rerouter>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <!-- Vehicles on route 0 -->
+    <vehicle id="v_0_0" type="rl" depart="0.00" departLane="0" departPos="free" route="r_0"/>
+    <vehicle id="v_1_0" type="human" depart="0.00" departLane="0" departPos="free" route="r_0"/>
+    <vehicle id="v_10_0" type="human" depart="0.00" departLane="0" departPos="free" route="r_0"/>
+    <vehicle id="v_11_0" type="human" depart="0.00" departLane="0" departPos="free" route="r_0"/>
+    <vehicle id="v_12_0" type="human" depart="0.00" departLane="0" departPos="free" route="r_0"/>
+    <vehicle id="v_13_0" type="human" depart="0.00" departLane="0" departPos="free" route="r_0"/>
+    <vehicle id="v_14_0" type="human" depart="0.00" departLane="0" departPos="free" route="r_0"/>
+    <vehicle id="v_15_0" type="human" depart="0.00" departLane="0" departPos="free" route="r_0"/>
+    <vehicle id="v_16_0" type="human" depart="0.00" departLane="0" departPos="free" route="r_0"/>
+    <vehicle id="v_17_0" type="human" depart="0.00" departLane="0" departPos="free" route="r_0"/>
+    <vehicle id="v_18_0" type="human" depart="0.00" departLane="0" departPos="free" route="r_0"/>
+    <vehicle id="v_19_0" type="human" depart="0.00" departLane="0" departPos="free" route="r_0"/>
+    <vehicle id="v_2_0" type="human" depart="0.00" departLane="0" departPos="free" route="r_0"/>
+    <vehicle id="v_3_0" type="human" depart="0.00" departLane="0" departPos="free" route="r_0"/>
+    <vehicle id="v_4_0" type="human" depart="0.00" departLane="0" departPos="free" route="r_0"/>
+    <vehicle id="v_5_0" type="human" depart="0.00" departLane="0" departPos="free" route="r_0"/>
+    <vehicle id="v_6_0" type="human" depart="0.00" departLane="0" departPos="free" route="r_0"/>
+    <vehicle id="v_7_0" type="human" depart="0.00" departLane="0" departPos="free" route="r_0"/>
+    <vehicle id="v_8_0" type="human" depart="0.00" departLane="0" departPos="free" route="r_0"/>
+    <vehicle id="v_9_0" type="human" depart="0.00" departLane="0" departPos="free" route="r_0"/>
+
+    <!-- Vehicles on route 1 -->
+    <vehicle id="v_0_1" type="human" depart="0.00" departLane="0" departPos="free" route="r_1"/>
+    <vehicle id="v_1_1" type="human" depart="0.00" departLane="0" departPos="free" route="r_1"/>
+    <vehicle id="v_10_1" type="human" depart="0.00" departLane="0" departPos="free" route="r_1"/>
+    <vehicle id="v_11_1" type="human" depart="0.00" departLane="0" departPos="free" route="r_1"/>
+    <vehicle id="v_12_1" type="human" depart="0.00" departLane="0" departPos="free" route="r_1"/>
+    <vehicle id="v_13_1" type="human" depart="0.00" departLane="0" departPos="free" route="r_1"/>
+    <vehicle id="v_14_1" type="human" depart="0.00" departLane="0" departPos="free" route="r_1"/>
+    <vehicle id="v_15_1" type="human" depart="0.00" departLane="0" departPos="free" route="r_1"/>
+    <vehicle id="v_16_1" type="human" depart="0.00" departLane="0" departPos="free" route="r_1"/>
+    <vehicle id="v_17_1" type="human" depart="0.00" departLane="0" departPos="free" route="r_1"/>
+    <vehicle id="v_18_1" type="human" depart="0.00" departLane="0" departPos="free" route="r_1"/>
+    <vehicle id="v_19_1" type="human" depart="0.00" departLane="0" departPos="free" route="r_1"/>
+    <vehicle id="v_2_1" type="human" depart="0.00" departLane="0" departPos="free" route="r_1"/>
+    <vehicle id="v_3_1" type="human" depart="0.00" departLane="0" departPos="free" route="r_1"/>
+    <vehicle id="v_4_1" type="human" depart="0.00" departLane="0" departPos="free" route="r_1"/>
+    <vehicle id="v_5_1" type="human" depart="0.00" departLane="0" departPos="free" route="r_1"/>
+    <vehicle id="v_6_1" type="human" depart="0.00" departLane="0" departPos="free" route="r_1"/>
+    <vehicle id="v_7_1" type="human" depart="0.00" departLane="0" departPos="free" route="r_1"/>
+    <vehicle id="v_8_1" type="human" depart="0.00" departLane="0" departPos="free" route="r_1"/>
+    <vehicle id="v_9_1" type="human" depart="0.00" departLane="0" departPos="free" route="r_1"/>
+    
+</additional>
