@@ -46,7 +46,7 @@ If you find the code or the paper useful for your research, please cite our pape
 
 ```bibtex
 @inproceedings{hasan2023perp,
-  title={PeRP: Personalized Residual Policies For Congestion Mitigation Through Co-operative Advisory Autonomy},
+  title={{PeRP}: Personalized Residual Policies For Congestion Mitigation Through Co-operative Advisory Autonomy},
   author={Hasan, Aamir and Chakraborty, Neeloy and Chen, Haonan and Cho, Jung-Hoon and Wu, Cathy and Driggs-Campbell, Katherine},
   booktitle={IEEE International Conference on Intelligent Transportation Systems (ITSC)},
   year={2023}
