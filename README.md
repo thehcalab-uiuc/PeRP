@@ -32,7 +32,7 @@ This repository is organized as follows:
 - Install [SUMO](https://eclipse.dev/sumo/)
 - Create conda environment using `environment.yml` or install the packages presented in `requirements.txt`
 - The `saved` directory contains PC policies and the trait inference model used in the paper.
-  - To train a custom PC policy refer to [PCP_REPO](ss)
+  - To train a custom PC policy refer to [PCP_REPO](https://ieeexplore.ieee.org/document/9564789)
   - To train a custom Driver trait inference model:
     - Create a dataset using the instruction in `dataset/README.md`
     - Train a DTI model using the instructions in `trait_inference/README.md`
