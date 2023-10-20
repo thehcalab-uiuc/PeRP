@@ -1104,7 +1104,7 @@ class Env:
         try: traci.close()
         except: pass
 
-class NormEnv(gym.Env):
+class NormEnv(Env):
     """
     Reward normalization with running average https://github.com/joschu/modular_rl
     """
