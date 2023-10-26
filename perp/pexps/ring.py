@@ -54,8 +54,8 @@ class RingEnv(Env):
         rl = nexti(control_vehicles.vehicles)
         if action is not None:  # action is None only right after reset
             ts.tc.vehicle.setMinGap(
-                rl.id, 0
-            )  # Set the minGap to 0 after the warmup period so the vehicle doesn't crash during warmup
+                rl.id, 0.1
+            )  # Set the minGap to 0.1 after the warmup period so the vehicle doesn't crash during warmup
             vel = action
             if isinstance(vel, np.ndarray):
                 vel = vel.item()
